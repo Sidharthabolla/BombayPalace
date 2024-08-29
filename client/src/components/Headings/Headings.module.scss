@@ -1,0 +1,47 @@
+@import '../../assets/sass/libs/functions';
+@import '../../assets/sass/libs/vars';
+
+.headingsDiv {
+  font-size: 12px;
+
+  .pageHeading {
+    font-size: 2.5em;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 0;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+  }
+} 
+
+.form {
+  padding: 10px;
+  // display: flex;
+  justify-content: space-between;
+
+  .formLabel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .buttonDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    .button {
+      color: _palette(bg) !important;
+      background-color: _palette(accent);
+    }
+  }
+}

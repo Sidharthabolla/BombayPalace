@@ -1,0 +1,11 @@
+@import '../../assets/sass/libs/functions';
+@import '../../assets/sass/libs/vars';
+
+.modalDiv {
+  position: absolute;
+  margin: auto;
+  border: 1px solid _palette(secondary);
+  background-color: white;
+  padding: 20px;
+  width: 1000px;
+}

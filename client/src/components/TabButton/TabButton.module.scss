@@ -1,0 +1,31 @@
+@import '../../assets/sass/libs/functions';
+@import '../../assets/sass/libs/vars';
+
+.TabButtonActive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: _palette(bg);
+  background-color: _palette(primary);
+  padding: 5px 20px;
+  margin-right: 20px;
+  border-radius: 2rem;
+  font-family: _font(family-heading);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.TabButtonInactive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: _palette(primary);
+  background-color: _palette(bg-alt);
+  border: 1px solid _palette(primary);
+  padding: 5px 15px;
+  margin-right: 20px;
+  border-radius: 2rem;
+  font-family: _font(family-heading);
+  font-weight: 800;
+  cursor: pointer;
+}
